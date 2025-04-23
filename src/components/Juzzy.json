@@ -1,0 +1,4933 @@
+{
+    "data": [],
+    "template": "pub\/playerview\/playerview.html",
+    "share_image": "https:\/\/d1c2851ymfarr0.cloudfront.net\/images\/X001-000347\/medium\/PhantomsLogo.png",
+    "title": " - Rec League Division 4 Winter 2025 Phantoms",
+    "player": {
+        "player_id": "22135",
+        "org_id": "0",
+        "morg_id": "5274",
+        "member_id": "9720",
+        "team_id": "1226",
+        "season_id": "182",
+        "jersey_number": "73",
+        "jersey_numeric": "73",
+        "is_staff": "0",
+        "designated": "",
+        "status_id": "1",
+        "headshot_image": "5526",
+        "action_image": "",
+        "registration": "N",
+        "player_rating": "0",
+        "firstname": "Justin",
+        "lastname": "Fox",
+        "nickname": "",
+        "email": "fox.justin93@gmail.com",
+        "phone": "",
+        "sms": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "country": "0",
+        "postcode": "",
+        "dob": "0000-00-00",
+        "height": "",
+        "weight": "",
+        "home_town": "",
+        "shoots": "R",
+        "catches": "",
+        "avatar": "0",
+        "status": "Active",
+        "last_login": "1745116247",
+        "created_date": "2023-05-05 08:48:35",
+        "opt_out": "N",
+        "sms_opt_out": "0",
+        "sms_invites": "0",
+        "xbb_moderator": "N",
+        "blog_status": "on",
+        "xbb_status": "on",
+        "schedule_status": "on",
+        "comment_status": "on",
+        "visible_status": "on",
+        "session": "ba028cabbb7d9760145eac4d5b985c1f",
+        "admin": "",
+        "admin_type": "",
+        "admin_notifications": "",
+        "positions": [
+            {
+                "player_position_id": "27062",
+                "org_id": "0",
+                "player_id": "22135",
+                "position_id": "102",
+                "main_position": "Y",
+                "long_name": "Winger",
+                "short_name": "W",
+                "type": "Offense"
+            }
+        ],
+        "headshot": "5526",
+        "headshot_url": "https:\/\/d1c2851ymfarr0.cloudfront.net\/images\/X001-000347\/playerheadshotjustin_fox22135.png",
+        "name": "Justin Fox"
+    },
+    "sub_seasons": {
+        "E": "Exhibition",
+        "R": "Regular",
+        "P": "Playoff"
+    },
+    "individual_stats": [
+        {
+            "sport_stat_id": 116,
+            "long_name": "Games Played",
+            "short_name": "GP"
+        },
+        {
+            "sport_stat_id": 103,
+            "long_name": "Points",
+            "short_name": "P"
+        },
+        {
+            "sport_stat_id": 101,
+            "long_name": "Goal",
+            "short_name": "G"
+        },
+        {
+            "sport_stat_id": 102,
+            "long_name": "Assist",
+            "short_name": "A"
+        },
+        {
+            "sport_stat_id": 117,
+            "long_name": "Points per game",
+            "short_name": "PPG"
+        },
+        {
+            "sport_stat_id": 115,
+            "long_name": "Penalty",
+            "short_name": "PM"
+        }
+    ],
+    "gamelog_stats": [
+        {
+            "sport_stat_id": 103,
+            "long_name": "Points",
+            "short_name": "P"
+        },
+        {
+            "sport_stat_id": 101,
+            "long_name": "Goal",
+            "short_name": "G"
+        },
+        {
+            "sport_stat_id": 102,
+            "long_name": "Assist",
+            "short_name": "A"
+        },
+        {
+            "sport_stat_id": 117,
+            "long_name": "Points per game",
+            "short_name": "PPG"
+        },
+        {
+            "sport_stat_id": 115,
+            "long_name": "Penalty",
+            "short_name": "PM"
+        }
+    ],
+    "team": {
+        "team_id": "1226",
+        "org_id": "0",
+        "season_id": "182",
+        "conference_id": "0",
+        "franchise_id": "26",
+        "team_location": "",
+        "team_full_name": "Phantoms",
+        "team_nickname": "Phantoms",
+        "team_abbreviation": "Phantoms",
+        "dark_color": "5d008c",
+        "light_color": "ffffff",
+        "home_jersey_color": "5d008c",
+        "away_jersey_color": "5d008c",
+        "home_jersey_number_color": "ffffff",
+        "away_jersey_number_color": "ffffff",
+        "logo": "2502",
+        "logo_small": "",
+        "store_url": "",
+        "is_individual": "0",
+        "team_url": "",
+        "team_photo": "",
+        "photo_by": "0",
+        "team_password": "",
+        "standings_override": "0",
+        "points_adjusted": "0",
+        "logo_url": "https:\/\/d1c2851ymfarr0.cloudfront.net\/images\/X001-000347\/PhantomsLogo.png"
+    },
+    "season": {
+        "season_id": "182",
+        "org_id": "0",
+        "division_id": "41",
+        "season_name": "Winter 2025",
+        "season_description": "",
+        "age_date": "2000-01-01",
+        "gender": "",
+        "season_status": "active",
+        "first_place": "0",
+        "second_place": "0",
+        "third_place": "0",
+        "scoring_method": "1",
+        "hide_stats": null,
+        "hide_stars": null,
+        "cluster_id": "1",
+        "division_long_name": "Division 4",
+        "division_short_name": "4",
+        "division_description": "",
+        "division_order": "4",
+        "division_type_id": "1",
+        "minimum_age": "15",
+        "maximum_age": "0",
+        "game_length": "48",
+        "ideal_players": "25",
+        "division_logo": "4901",
+        "parent_id": "0",
+        "featured": "N",
+        "sport_id": "1",
+        "game_segment_type_id": "30",
+        "game_segment_time": "00:16:00",
+        "cluster_long_name": "Rec League",
+        "cluster_short_name": "Rec League",
+        "cluster_description": "",
+        "cluster_order": "1",
+        "cluster_logo": "2151",
+        "cluster_status": "1"
+    },
+    "is_player": false,
+    "awards": [],
+    "all_awards": [
+        {
+            "player_award_id": "9810",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "4570",
+            "game_award_identifier": "_0",
+            "member_id": "0",
+            "player_id": "13741",
+            "award_id": "7",
+            "award_date": "1678566830",
+            "comment": "",
+            "award_rank": "1010",
+            "xsyte_type_id": "0",
+            "award_name": "2nd Star",
+            "award_type": "game",
+            "description": "<p>2nd Star of the Game<\/p>",
+            "file_name": "2740",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "9960",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "4619",
+            "game_award_identifier": "_0",
+            "member_id": "0",
+            "player_id": "13741",
+            "award_id": "7",
+            "award_date": "1679763626",
+            "comment": "",
+            "award_rank": "1010",
+            "xsyte_type_id": "0",
+            "award_name": "2nd Star",
+            "award_type": "game",
+            "description": "<p>2nd Star of the Game<\/p>",
+            "file_name": "2740",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "10045",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "4650",
+            "game_award_identifier": "_0",
+            "member_id": "0",
+            "player_id": "13741",
+            "award_id": "8",
+            "award_date": "1680385618",
+            "comment": "",
+            "award_rank": "1020",
+            "xsyte_type_id": "0",
+            "award_name": "3rd Star",
+            "award_type": "game",
+            "description": "<p>3rd Star of the Game<\/p>",
+            "file_name": "2741",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "10074",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "4652",
+            "game_award_identifier": "_0",
+            "member_id": "0",
+            "player_id": "13741",
+            "award_id": "8",
+            "award_date": "1680636242",
+            "comment": "",
+            "award_rank": "1020",
+            "xsyte_type_id": "0",
+            "award_name": "3rd Star",
+            "award_type": "game",
+            "description": "<p>3rd Star of the Game<\/p>",
+            "file_name": "2741",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "10332",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "4808",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "14855",
+            "award_id": "6",
+            "award_date": "1683493724",
+            "comment": "",
+            "award_rank": "1000",
+            "xsyte_type_id": "0",
+            "award_name": "1st Star",
+            "award_type": "game",
+            "description": "<p>1st Star of the Game<\/p>",
+            "file_name": "2739",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "10910",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "4996",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "14855",
+            "award_id": "7",
+            "award_date": "1687722962",
+            "comment": "",
+            "award_rank": "1010",
+            "xsyte_type_id": "0",
+            "award_name": "2nd Star",
+            "award_type": "game",
+            "description": "<p>2nd Star of the Game<\/p>",
+            "file_name": "2740",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "11008",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "5022",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "14855",
+            "award_id": "6",
+            "award_date": "1689529408",
+            "comment": "",
+            "award_rank": "1000",
+            "xsyte_type_id": "0",
+            "award_name": "1st Star",
+            "award_type": "game",
+            "description": "<p>1st Star of the Game<\/p>",
+            "file_name": "2739",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "11421",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "5152",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "14855",
+            "award_id": "7",
+            "award_date": "1692568992",
+            "comment": "",
+            "award_rank": "1010",
+            "xsyte_type_id": "0",
+            "award_name": "2nd Star",
+            "award_type": "game",
+            "description": "<p>2nd Star of the Game<\/p>",
+            "file_name": "2740",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "12734",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "5588",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "16034",
+            "award_id": "6",
+            "award_date": "1705871847",
+            "comment": "",
+            "award_rank": "1000",
+            "xsyte_type_id": "0",
+            "award_name": "1st Star",
+            "award_type": "game",
+            "description": "<p>1st Star of the Game<\/p>",
+            "file_name": "2739",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "15176",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "6636",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "20630",
+            "award_id": "6",
+            "award_date": "1729805428",
+            "comment": "",
+            "award_rank": "1000",
+            "xsyte_type_id": "0",
+            "award_name": "1st Star",
+            "award_type": "game",
+            "description": "<p>1st Star of the Game<\/p>",
+            "file_name": "2739",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "15808",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "6796",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "20630",
+            "award_id": "8",
+            "award_date": "1734035383",
+            "comment": "",
+            "award_rank": "1020",
+            "xsyte_type_id": "0",
+            "award_name": "3rd Star",
+            "award_type": "game",
+            "description": "<p>3rd Star of the Game<\/p>",
+            "file_name": "2741",
+            "use_bg_color": ""
+        },
+        {
+            "player_award_id": "16895",
+            "org_id": "0",
+            "morg_id": "5274",
+            "game_id": "7274",
+            "game_award_identifier": "_0",
+            "member_id": "9720",
+            "player_id": "21600",
+            "award_id": "8",
+            "award_date": "1742735263",
+            "comment": "",
+            "award_rank": "1020",
+            "xsyte_type_id": "0",
+            "award_name": "3rd Star",
+            "award_type": "game",
+            "description": "<p>3rd Star of the Game<\/p>",
+            "file_name": "2741",
+            "use_bg_color": ""
+        }
+    ],
+    "career_divisions": {
+        "11": {
+            "name": "NYE Tournament",
+            "cluster_name": "NYE Tournament",
+            "logo": "2271",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 3,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 1,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "141": {
+                    "season_info": {
+                        "player_id": "17670",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "994",
+                        "season_id": "141",
+                        "jersey_number": "2",
+                        "jersey_numeric": "2",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "4839",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "63",
+                        "team_location": "",
+                        "team_full_name": "Highlanders",
+                        "team_nickname": "Highlanders",
+                        "team_abbreviation": "High",
+                        "dark_color": "f0b728",
+                        "light_color": "686ade",
+                        "home_jersey_color": "f0b728",
+                        "away_jersey_color": "f0b728",
+                        "home_jersey_number_color": "686ade",
+                        "away_jersey_number_color": "686ade",
+                        "logo": "3411",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "11",
+                        "season_name": "NYE Tournament 2023",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "993",
+                        "second_place": "992",
+                        "third_place": "994",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "4",
+                        "division_long_name": "NYE Tournament",
+                        "division_short_name": "NYE Tourny",
+                        "division_description": "",
+                        "division_order": "0",
+                        "division_type_id": "1",
+                        "minimum_age": "14",
+                        "maximum_age": "0",
+                        "game_length": "25",
+                        "ideal_players": "14",
+                        "division_logo": "2271",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "10",
+                        "game_segment_time": "10:30:00",
+                        "cluster_long_name": "NYE Tournament",
+                        "cluster_short_name": "NYE Tourny",
+                        "cluster_description": "",
+                        "cluster_order": "5",
+                        "cluster_logo": "2271",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "3",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "20933",
+                            "org_id": "347",
+                            "player_id": "17670",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "19": {
+            "name": "Paper Division",
+            "cluster_name": "Silver Cup",
+            "logo": "2923",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 1,
+                    "103": 1,
+                    "114": 0,
+                    "115": 0,
+                    "116": 3,
+                    "117": 0.33
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 2,
+                    "116": 2,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "108": {
+                    "season_info": {
+                        "player_id": "12980",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "776",
+                        "season_id": "108",
+                        "jersey_number": "88",
+                        "jersey_numeric": "88",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "19",
+                        "season_name": "January 2023",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "775",
+                        "second_place": "776",
+                        "third_place": "778",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "3",
+                        "division_long_name": "Paper Division",
+                        "division_short_name": "Paper",
+                        "division_description": "",
+                        "division_order": "0",
+                        "division_type_id": "1",
+                        "minimum_age": "0",
+                        "maximum_age": "0",
+                        "game_length": "45",
+                        "ideal_players": "14",
+                        "division_logo": "2923",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:15:00",
+                        "cluster_long_name": "Silver Cup",
+                        "cluster_short_name": "Silver Cup",
+                        "cluster_description": "",
+                        "cluster_order": "5",
+                        "cluster_logo": "2920",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 1,
+                            "103": 1,
+                            "114": 0,
+                            "115": 0,
+                            "116": "3",
+                            "117": "0.33"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": "2",
+                            "116": "2",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "15093",
+                            "org_id": "347",
+                            "player_id": "12980",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "41": {
+            "name": "Division 4",
+            "cluster_name": "Rec League",
+            "logo": "4901",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "182": {
+                    "season_info": {
+                        "player_id": "22135",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1226",
+                        "season_id": "182",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "5526",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "26",
+                        "team_location": "",
+                        "team_full_name": "Phantoms",
+                        "team_nickname": "Phantoms",
+                        "team_abbreviation": "Phantoms",
+                        "dark_color": "5d008c",
+                        "light_color": "ffffff",
+                        "home_jersey_color": "5d008c",
+                        "away_jersey_color": "5d008c",
+                        "home_jersey_number_color": "ffffff",
+                        "away_jersey_number_color": "ffffff",
+                        "logo": "2502",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "41",
+                        "season_name": "Winter 2025",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "active",
+                        "first_place": "0",
+                        "second_place": "0",
+                        "third_place": "0",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 4",
+                        "division_short_name": "4",
+                        "division_description": "",
+                        "division_order": "4",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4901",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "27062",
+                            "org_id": "0",
+                            "player_id": "22135",
+                            "position_id": "102",
+                            "main_position": "Y",
+                            "long_name": "Winger",
+                            "short_name": "W",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "55": {
+            "name": "Pro Rookie A",
+            "cluster_name": "Aussie Classic",
+            "logo": "5424",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 3,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 1,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "178": {
+                    "season_info": {
+                        "player_id": "21600",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1207",
+                        "season_id": "178",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "197",
+                        "team_location": "",
+                        "team_full_name": "Thieves",
+                        "team_nickname": "Thieves",
+                        "team_abbreviation": "Thieves",
+                        "dark_color": "000000",
+                        "light_color": "dda009",
+                        "home_jersey_color": "000000",
+                        "away_jersey_color": "000000",
+                        "home_jersey_number_color": "dda009",
+                        "away_jersey_number_color": "dda009",
+                        "logo": "5420",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "55",
+                        "season_name": "2025",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1204",
+                        "second_place": "1205",
+                        "third_place": "1207",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": "1",
+                        "cluster_id": "15",
+                        "division_long_name": "Pro Rookie A",
+                        "division_short_name": "Pro R A",
+                        "division_description": "",
+                        "division_order": "4",
+                        "division_type_id": "1",
+                        "minimum_age": "0",
+                        "maximum_age": "0",
+                        "game_length": "39",
+                        "ideal_players": "20",
+                        "division_logo": "5424",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:12:00",
+                        "cluster_long_name": "Aussie Classic",
+                        "cluster_short_name": "AC",
+                        "cluster_description": "",
+                        "cluster_order": "3",
+                        "cluster_logo": "5417",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "3",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "26251",
+                            "org_id": "0",
+                            "player_id": "21600",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "33": {
+            "name": "B4",
+            "cluster_name": "3v3 Tourney",
+            "logo": "4479",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 2,
+                    "102": 2,
+                    "103": 4,
+                    "114": 0,
+                    "115": 0,
+                    "116": 4,
+                    "117": 1
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 1,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "130": {
+                    "season_info": {
+                        "player_id": "15571",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "937",
+                        "season_id": "130",
+                        "jersey_number": "33",
+                        "jersey_numeric": "33",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "39",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "169",
+                        "team_location": "",
+                        "team_full_name": "Yeah Babes",
+                        "team_nickname": "Yeah Babes",
+                        "team_abbreviation": "Yeah Babes",
+                        "dark_color": "4d9e42",
+                        "light_color": "b32451",
+                        "home_jersey_color": "4d9e42",
+                        "away_jersey_color": "4d9e42",
+                        "home_jersey_number_color": "b32451",
+                        "away_jersey_number_color": "b32451",
+                        "logo": "3652",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "33",
+                        "season_name": "September 2023",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "937",
+                        "second_place": "938",
+                        "third_place": "939",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "13",
+                        "division_long_name": "B4",
+                        "division_short_name": "B4",
+                        "division_description": "",
+                        "division_order": "5",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "20",
+                        "ideal_players": "8",
+                        "division_logo": "4479",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "10",
+                        "game_segment_time": "00:10:00",
+                        "cluster_long_name": "3v3 Tourney",
+                        "cluster_short_name": "3v3",
+                        "cluster_description": "",
+                        "cluster_order": "4",
+                        "cluster_logo": "4541",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "2",
+                            "102": 2,
+                            "103": 4,
+                            "114": 0,
+                            "115": 0,
+                            "116": "4",
+                            "117": "1.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "18685",
+                            "org_id": "347",
+                            "player_id": "15571",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "42": {
+            "name": "Division 5",
+            "cluster_name": "Rec League",
+            "logo": "4897",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 3,
+                    "102": 4,
+                    "103": 7,
+                    "114": 0,
+                    "115": 4,
+                    "116": 13,
+                    "117": 0.54
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 2,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "161": {
+                    "season_info": {
+                        "player_id": "20630",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1101",
+                        "season_id": "161",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "42",
+                        "season_name": "Summer 24\/25",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1100",
+                        "second_place": "1089",
+                        "third_place": "1101",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 5",
+                        "division_short_name": "5",
+                        "division_description": "",
+                        "division_order": "5",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4897",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "3",
+                            "102": 4,
+                            "103": 7,
+                            "114": 0,
+                            "115": "4",
+                            "116": "13",
+                            "117": "0.54"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "2",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "25012",
+                            "org_id": "347",
+                            "player_id": "20630",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "43": {
+            "name": "Division 6",
+            "cluster_name": "Rec League",
+            "logo": "4900",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 5,
+                    "102": 3,
+                    "103": 8,
+                    "114": 0,
+                    "115": 0,
+                    "116": 16,
+                    "117": 0.5
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 2,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "149": {
+                    "season_info": {
+                        "player_id": "18939",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1030",
+                        "season_id": "149",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "43",
+                        "season_name": "Winter 2024",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1030",
+                        "second_place": "1031",
+                        "third_place": "1028",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 6",
+                        "division_short_name": "6",
+                        "division_description": "",
+                        "division_order": "6",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4900",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "5",
+                            "102": 3,
+                            "103": 8,
+                            "114": 0,
+                            "115": 0,
+                            "116": "16",
+                            "117": "0.50"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "2",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "22881",
+                            "org_id": "347",
+                            "player_id": "18939",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "44": {
+            "name": "Division 7",
+            "cluster_name": "Rec League",
+            "logo": "4902",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 8,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "185": {
+                    "season_info": {
+                        "player_id": "21951",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1249",
+                        "season_id": "185",
+                        "jersey_number": "MGR",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "44",
+                        "season_name": "Winter 2025",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "active",
+                        "first_place": "0",
+                        "second_place": "0",
+                        "third_place": "0",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 7",
+                        "division_short_name": "7",
+                        "division_description": "",
+                        "division_order": "7",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4902",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "26794",
+                            "org_id": "347",
+                            "player_id": "21951",
+                            "position_id": "4",
+                            "main_position": "Y",
+                            "long_name": "Manager",
+                            "short_name": "MGR",
+                            "type": "Staff"
+                        }
+                    ]
+                },
+                "163": {
+                    "season_info": {
+                        "player_id": "19463",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1120",
+                        "season_id": "163",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "44",
+                        "season_name": "Summer 24\/25",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1115",
+                        "second_place": "1114",
+                        "third_place": "1116",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 7",
+                        "division_short_name": "7",
+                        "division_description": "",
+                        "division_order": "7",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4902",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "8",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "24938",
+                            "org_id": "0",
+                            "player_id": "19463",
+                            "position_id": "1",
+                            "main_position": "Y",
+                            "long_name": "Head Coach",
+                            "short_name": "HC",
+                            "type": "Staff"
+                        }
+                    ]
+                }
+            }
+        },
+        "45": {
+            "name": "Division 8",
+            "cluster_name": "Rec League",
+            "logo": "4898",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 18,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 4,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "186": {
+                    "season_info": {
+                        "player_id": "22166",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1253",
+                        "season_id": "186",
+                        "jersey_number": "AC",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "a70000",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "b21616",
+                        "away_jersey_color": "4ddbef",
+                        "home_jersey_number_color": "ffffff",
+                        "away_jersey_number_color": "b70b0b",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "45",
+                        "season_name": "Winter 2025",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "active",
+                        "first_place": "0",
+                        "second_place": "0",
+                        "third_place": "0",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 8",
+                        "division_short_name": "8",
+                        "division_description": "",
+                        "division_order": "8",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4898",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "27805",
+                            "org_id": "347",
+                            "player_id": "22166",
+                            "position_id": "2",
+                            "main_position": "Y",
+                            "long_name": "Assistant Coach",
+                            "short_name": "AC",
+                            "type": "Staff"
+                        }
+                    ]
+                },
+                "164": {
+                    "season_info": {
+                        "player_id": "19376",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1130",
+                        "season_id": "164",
+                        "jersey_number": "MGR",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "45",
+                        "season_name": "Summer 24\/25",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1132",
+                        "second_place": "1130",
+                        "third_place": "1123",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 8",
+                        "division_short_name": "8",
+                        "division_description": "",
+                        "division_order": "8",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4898",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "3",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "2",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "23560",
+                            "org_id": "0",
+                            "player_id": "19376",
+                            "position_id": "2",
+                            "main_position": "Y",
+                            "long_name": "Assistant Coach",
+                            "short_name": "AC",
+                            "type": "Staff"
+                        }
+                    ]
+                },
+                "151": {
+                    "season_info": {
+                        "player_id": "18254",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1044",
+                        "season_id": "151",
+                        "jersey_number": "Staf",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "45",
+                        "season_name": "Winter 2024",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1045",
+                        "second_place": "1044",
+                        "third_place": "1049",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 8",
+                        "division_short_name": "8",
+                        "division_description": "",
+                        "division_order": "8",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4898",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "15",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "2",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "21606",
+                            "org_id": "347",
+                            "player_id": "18254",
+                            "position_id": "6",
+                            "main_position": "Y",
+                            "long_name": "Staff",
+                            "short_name": "Staff",
+                            "type": "Staff"
+                        }
+                    ]
+                }
+            }
+        },
+        "46": {
+            "name": "Division 9",
+            "cluster_name": "Rec League",
+            "logo": "4903",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 6,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 1,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "152": {
+                    "season_info": {
+                        "player_id": "17985",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "1050",
+                        "season_id": "152",
+                        "jersey_number": "Staf",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "46",
+                        "season_name": "Winter 2024",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1050",
+                        "second_place": "1053",
+                        "third_place": "1051",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 9",
+                        "division_short_name": "9",
+                        "division_description": "",
+                        "division_order": "9",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4903",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "6",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "21277",
+                            "org_id": "347",
+                            "player_id": "17985",
+                            "position_id": "6",
+                            "main_position": "Y",
+                            "long_name": "Staff",
+                            "short_name": "Staff",
+                            "type": "Staff"
+                        }
+                    ]
+                }
+            }
+        },
+        "20": {
+            "name": "B4",
+            "cluster_name": "Rec League",
+            "logo": "3207",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 5,
+                    "102": 15,
+                    "103": 20,
+                    "114": 0,
+                    "115": 0,
+                    "116": 23,
+                    "117": 1.6800000000000002
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 1,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "124": {
+                    "season_info": {
+                        "player_id": "16034",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "917",
+                        "season_id": "124",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "4838",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals Canadian News",
+                        "team_nickname": "Canadian News",
+                        "team_abbreviation": "Canadian ",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "3845",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "20",
+                        "season_name": "Summer 23\/24",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "919",
+                        "second_place": "918",
+                        "third_place": "911",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "B4",
+                        "division_short_name": "B4",
+                        "division_description": "",
+                        "division_order": "14",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3207",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "3",
+                            "102": 3,
+                            "103": 6,
+                            "114": 0,
+                            "115": 0,
+                            "116": "10",
+                            "117": "0.60"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "19166",
+                            "org_id": "347",
+                            "player_id": "16034",
+                            "position_id": "105",
+                            "main_position": "Y",
+                            "long_name": "Defenseman",
+                            "short_name": "D",
+                            "type": "Defense"
+                        }
+                    ]
+                },
+                "114": {
+                    "season_info": {
+                        "player_id": "14855",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "825",
+                        "season_id": "114",
+                        "jersey_number": "73",
+                        "jersey_numeric": "73",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "4488",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals Canadian News",
+                        "team_nickname": "Canadian News",
+                        "team_abbreviation": "Canadian ",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "3845",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "20",
+                        "season_name": "Winter 2023",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "832",
+                        "second_place": "829",
+                        "third_place": "830",
+                        "scoring_method": "3",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "B4",
+                        "division_short_name": "B4",
+                        "division_description": "",
+                        "division_order": "14",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3207",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "2",
+                            "102": 12,
+                            "103": 14,
+                            "114": 0,
+                            "115": 0,
+                            "116": "13",
+                            "117": "1.08"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "18604",
+                            "org_id": "0",
+                            "player_id": "14855",
+                            "position_id": "5",
+                            "main_position": "Y",
+                            "long_name": "Equipment Manager",
+                            "short_name": "EM",
+                            "type": "Staff"
+                        }
+                    ]
+                }
+            }
+        },
+        "7": {
+            "name": "C1",
+            "cluster_name": "Rec League",
+            "logo": "3190",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 3,
+                    "102": 3,
+                    "103": 6,
+                    "114": 0,
+                    "115": 0,
+                    "116": 35,
+                    "117": 0.7000000000000001
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 2,
+                    "103": 2,
+                    "114": 0,
+                    "115": 0,
+                    "116": 5,
+                    "117": 1
+                }
+            },
+            "seasons": {
+                "125": {
+                    "season_info": {
+                        "player_id": "16869",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "928",
+                        "season_id": "125",
+                        "jersey_number": "HC",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "4856",
+                        "action_image": "4840",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals Evening News",
+                        "team_nickname": "Evening News",
+                        "team_abbreviation": "Evening",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "7",
+                        "season_name": "Summer 23\/24",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "922",
+                        "second_place": "925",
+                        "third_place": "930",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "C1",
+                        "division_short_name": "C1",
+                        "division_description": "",
+                        "division_order": "15",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3190",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "9",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "20017",
+                            "org_id": "347",
+                            "player_id": "16869",
+                            "position_id": "1",
+                            "main_position": "Y",
+                            "long_name": "Head Coach",
+                            "short_name": "HC",
+                            "type": "Staff"
+                        }
+                    ]
+                },
+                "103": {
+                    "season_info": {
+                        "player_id": "13741",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "753",
+                        "season_id": "103",
+                        "jersey_number": "88",
+                        "jersey_numeric": "88",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "7",
+                        "season_name": "Summer 2023",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "750",
+                        "second_place": "747",
+                        "third_place": "753",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "C1",
+                        "division_short_name": "C1",
+                        "division_description": "",
+                        "division_order": "15",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3190",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "3",
+                            "102": 2,
+                            "103": 5,
+                            "114": 0,
+                            "115": 0,
+                            "116": "9",
+                            "117": "0.56"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 2,
+                            "103": 2,
+                            "114": 0,
+                            "115": 0,
+                            "116": "2",
+                            "117": "1.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "16187",
+                            "org_id": "347",
+                            "player_id": "13741",
+                            "position_id": "105",
+                            "main_position": "Y",
+                            "long_name": "Defenseman",
+                            "short_name": "D",
+                            "type": "Defense"
+                        }
+                    ]
+                },
+                "93": {
+                    "season_info": {
+                        "player_id": "11245",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "676",
+                        "season_id": "93",
+                        "jersey_number": "88",
+                        "jersey_numeric": "88",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "39",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "139",
+                        "team_location": "",
+                        "team_full_name": "Incredibly Polite Canadian News Team",
+                        "team_nickname": "Canadian News Team",
+                        "team_abbreviation": "Can News",
+                        "dark_color": "ad1632",
+                        "light_color": "b4d122",
+                        "home_jersey_color": "ad1632",
+                        "away_jersey_color": "ad1632",
+                        "home_jersey_number_color": "b4d122",
+                        "away_jersey_number_color": "b4d122",
+                        "logo": "3845",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "7",
+                        "season_name": "Summer 2022",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "677",
+                        "second_place": "679",
+                        "third_place": "682",
+                        "scoring_method": "3",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "C1",
+                        "division_short_name": "C1",
+                        "division_description": "",
+                        "division_order": "15",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3190",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 1,
+                            "103": 1,
+                            "114": 0,
+                            "115": 0,
+                            "116": "7",
+                            "117": "0.14"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "12898",
+                            "org_id": "347",
+                            "player_id": "11245",
+                            "position_id": "105",
+                            "main_position": "Y",
+                            "long_name": "Defenseman",
+                            "short_name": "D",
+                            "type": "Defense"
+                        }
+                    ]
+                }
+            }
+        },
+        "6": {
+            "name": "C2",
+            "cluster_name": "Rec League",
+            "logo": "3192",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 1,
+                    "102": 1,
+                    "103": 2,
+                    "114": 0,
+                    "115": 2,
+                    "116": 21,
+                    "117": 0.41000000000000003
+                },
+                "P": {
+                    "100": 0,
+                    "101": 1,
+                    "102": 0,
+                    "103": 1,
+                    "114": 0,
+                    "115": 0,
+                    "116": 4,
+                    "117": 0.33
+                }
+            },
+            "seasons": {
+                "116": {
+                    "season_info": {
+                        "player_id": "15323",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "849",
+                        "season_id": "116",
+                        "jersey_number": "HC",
+                        "jersey_numeric": "9999",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "4580",
+                        "action_image": "",
+                        "registration": "A",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "108",
+                        "team_location": "",
+                        "team_full_name": "Big Deals",
+                        "team_nickname": "Big Deals",
+                        "team_abbreviation": "Big Deals",
+                        "dark_color": "852222",
+                        "light_color": "d6c400",
+                        "home_jersey_color": "852222",
+                        "away_jersey_color": "852222",
+                        "home_jersey_number_color": "d6c400",
+                        "away_jersey_number_color": "d6c400",
+                        "logo": "2996",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "6",
+                        "season_name": "Winter 2023",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "849",
+                        "second_place": "850",
+                        "third_place": "853",
+                        "scoring_method": "3",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "C2",
+                        "division_short_name": "C2",
+                        "division_description": "",
+                        "division_order": "16",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3192",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "6",
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": "1",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "18359",
+                            "org_id": "347",
+                            "player_id": "15323",
+                            "position_id": "1",
+                            "main_position": "Y",
+                            "long_name": "Head Coach",
+                            "short_name": "HC",
+                            "type": "Staff"
+                        }
+                    ]
+                },
+                "86": {
+                    "season_info": {
+                        "player_id": "10824",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "630",
+                        "season_id": "86",
+                        "jersey_number": "88",
+                        "jersey_numeric": "88",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "39",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "130",
+                        "team_location": "",
+                        "team_full_name": "Moon Dogs Hazy",
+                        "team_nickname": "Moon Dogs Hazy",
+                        "team_abbreviation": "Hazy",
+                        "dark_color": "6cbd45",
+                        "light_color": "a1c73a",
+                        "home_jersey_color": "6cbd45",
+                        "away_jersey_color": "6cbd45",
+                        "home_jersey_number_color": "a1c73a",
+                        "away_jersey_number_color": "a1c73a",
+                        "logo": "3774",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "6",
+                        "season_name": "Winter 2022",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "631",
+                        "second_place": "630",
+                        "third_place": "626",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": "1",
+                        "cluster_id": "1",
+                        "division_long_name": "C2",
+                        "division_short_name": "C2",
+                        "division_description": "",
+                        "division_order": "16",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3192",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 1,
+                            "103": 1,
+                            "114": 0,
+                            "115": "2",
+                            "116": "12",
+                            "117": "0.08"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": "1",
+                            "102": 0,
+                            "103": 1,
+                            "114": 0,
+                            "115": 0,
+                            "116": "3",
+                            "117": "0.33"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "12419",
+                            "org_id": "347",
+                            "player_id": "10824",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                },
+                "68": {
+                    "season_info": {
+                        "player_id": "9890",
+                        "org_id": "0",
+                        "morg_id": "5274",
+                        "member_id": "0",
+                        "team_id": "528",
+                        "season_id": "68",
+                        "jersey_number": "97",
+                        "jersey_numeric": "97",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "39",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "91",
+                        "team_location": "",
+                        "team_full_name": "Bad Shepherds",
+                        "team_nickname": "Shepherds",
+                        "team_abbreviation": "Bad Shep",
+                        "dark_color": "e31c1c",
+                        "light_color": "1f75ed",
+                        "home_jersey_color": "e31c1c",
+                        "away_jersey_color": "e31c1c",
+                        "home_jersey_number_color": "1f75ed",
+                        "away_jersey_number_color": "1f75ed",
+                        "logo": "2537",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "6",
+                        "season_name": "Summer 2021\/22",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "524",
+                        "second_place": "528",
+                        "third_place": "526",
+                        "scoring_method": "3",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "C2",
+                        "division_short_name": "C2",
+                        "division_description": "",
+                        "division_order": "16",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "20",
+                        "division_logo": "3192",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "1",
+                            "102": 0,
+                            "103": 1,
+                            "114": 0,
+                            "115": 0,
+                            "116": "3",
+                            "117": "0.33"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "11363",
+                            "org_id": "347",
+                            "player_id": "9890",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "player_season_totals": {
+        "E": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": "0.00"
+        },
+        "R": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": "0.00"
+        },
+        "P": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": "0.00"
+        }
+    },
+    "player_season_stat_attribute_totals": {
+        "E": {
+            "101": 0,
+            "102": 0
+        },
+        "R": {
+            "101": 0,
+            "102": 0
+        },
+        "P": {
+            "101": 0,
+            "102": 0
+        }
+    },
+    "player_career_totals": {
+        "17670": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "3",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "12980": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 1,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": "3",
+                "117": "0.33"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": "2",
+                "116": "2",
+                "117": "0.00"
+            }
+        },
+        "22135": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        },
+        "21600": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "3",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "15571": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "2",
+                "102": 2,
+                "103": 4,
+                "114": 0,
+                "115": 0,
+                "116": "4",
+                "117": "1.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "20630": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "3",
+                "102": 4,
+                "103": 7,
+                "114": 0,
+                "115": "4",
+                "116": "13",
+                "117": "0.54"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "2",
+                "117": "0.00"
+            }
+        },
+        "18939": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "5",
+                "102": 3,
+                "103": 8,
+                "114": 0,
+                "115": 0,
+                "116": "16",
+                "117": "0.50"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "2",
+                "117": "0.00"
+            }
+        },
+        "21951": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        },
+        "19463": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "8",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        },
+        "22166": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        },
+        "19376": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "3",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "2",
+                "117": "0.00"
+            }
+        },
+        "18254": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "15",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "2",
+                "117": "0.00"
+            }
+        },
+        "17985": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "6",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "16034": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "3",
+                "102": 3,
+                "103": 6,
+                "114": 0,
+                "115": 0,
+                "116": "10",
+                "117": "0.60"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "14855": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "2",
+                "102": 12,
+                "103": 14,
+                "114": 0,
+                "115": 0,
+                "116": "13",
+                "117": "1.08"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        },
+        "16887": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "10",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "16869": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "9",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "13741": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "3",
+                "102": 2,
+                "103": 5,
+                "114": 0,
+                "115": 0,
+                "116": "9",
+                "117": "0.56"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 2,
+                "103": 2,
+                "114": 0,
+                "115": 0,
+                "116": "2",
+                "117": "1.00"
+            }
+        },
+        "11245": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 1,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": "7",
+                "117": "0.14"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "15323": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "6",
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": "1",
+                "117": "0.00"
+            }
+        },
+        "10824": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 1,
+                "103": 1,
+                "114": 0,
+                "115": "2",
+                "116": "12",
+                "117": "0.08"
+            },
+            "P": {
+                "100": 0,
+                "101": "1",
+                "102": 0,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": "3",
+                "117": "0.33"
+            }
+        },
+        "9890": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "1",
+                "102": 0,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": "3",
+                "117": "0.33"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        }
+    },
+    "player_career_stat_attribute_totals": {
+        "17670": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "12980": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "1",
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "22135": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "21600": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "15571": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "2",
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "20630": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "3",
+                "102": "1"
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "18939": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "2",
+                "102": "1"
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "21951": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "19463": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "22166": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "19376": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "18254": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "17985": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "16034": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "2",
+                "102": "1"
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "14855": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "10",
+                "102": "2"
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "16887": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "16869": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "13741": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "1",
+                "102": "1"
+            },
+            "P": {
+                "101": "2",
+                "102": 0
+            }
+        },
+        "11245": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "1",
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "15323": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "10824": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "1",
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "9890": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        }
+    },
+    "player_game_stat_totals": [],
+    "player_game_stat_attribute_totals": [],
+    "division_totals": {
+        "11": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 3,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 1,
+                "117": 0
+            }
+        },
+        "19": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 1,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": 3,
+                "117": 0.33
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 2,
+                "116": 2,
+                "117": 0
+            }
+        },
+        "41": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            }
+        },
+        "55": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 3,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 1,
+                "117": 0
+            }
+        },
+        "33": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 2,
+                "102": 2,
+                "103": 4,
+                "114": 0,
+                "115": 0,
+                "116": 4,
+                "117": 1
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 1,
+                "117": 0
+            }
+        },
+        "42": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 3,
+                "102": 4,
+                "103": 7,
+                "114": 0,
+                "115": 4,
+                "116": 13,
+                "117": 0.54
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 2,
+                "117": 0
+            }
+        },
+        "43": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 5,
+                "102": 3,
+                "103": 8,
+                "114": 0,
+                "115": 0,
+                "116": 16,
+                "117": 0.5
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 2,
+                "117": 0
+            }
+        },
+        "44": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 8,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            }
+        },
+        "45": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 18,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 4,
+                "117": 0
+            }
+        },
+        "46": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 6,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 1,
+                "117": 0
+            }
+        },
+        "20": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 5,
+                "102": 15,
+                "103": 20,
+                "114": 0,
+                "115": 0,
+                "116": 23,
+                "117": 1.6800000000000002
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 1,
+                "117": 0
+            }
+        },
+        "7": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 3,
+                "102": 3,
+                "103": 6,
+                "114": 0,
+                "115": 0,
+                "116": 35,
+                "117": 0.7000000000000001
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 2,
+                "103": 2,
+                "114": 0,
+                "115": 0,
+                "116": 5,
+                "117": 1
+            }
+        },
+        "6": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 1,
+                "102": 1,
+                "103": 2,
+                "114": 0,
+                "115": 2,
+                "116": 21,
+                "117": 0.41000000000000003
+            },
+            "P": {
+                "100": 0,
+                "101": 1,
+                "102": 0,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": 4,
+                "117": 0.33
+            }
+        }
+    },
+    "uses_jersey_numbers": true,
+    "hide_stats": true,
+    "player_notes": null,
+    "highlights": [],
+    "games": [],
+    "team_admin_morg_ids": [
+        "113",
+        "637"
+    ]
+}
