@@ -3,7 +3,7 @@ import './App.css';
 import {Division9LineChart} from "./components/Line";
 import { Line } from 'react-chartjs-2';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './Pages/Home';
 import {Players} from './components/HockeyData';
 import SeasonStatChart from './components/SeasonStatChart';
 

@@ -27,7 +27,7 @@ export const Division9LineChart  = () => {
 const [chartData, setChartData] = useState(null);
 
 useEffect(() => {
-    getDivision9GoalStats('https://icehq.hockeysyte.com/api/players/player?player_id=21997&api_key=hYYUDGj632husuyq&format=json')
+    getDivision9GoalStats('https://icehq.hockeysyte.com/api/players/player?player_id=22135&api_key=hYYUDGj632husuyq&format=json')
       .then(setChartData)
       .catch(console.error);
   }, []);

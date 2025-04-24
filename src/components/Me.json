@@ -1,0 +1,929 @@
+{
+    "data": [],
+    "template": "pub\/playerview\/playerview.html",
+    "share_image": "https:\/\/d1c2851ymfarr0.cloudfront.net\/images\/X001-000347\/medium\/happys-10791-1742918865.png.png",
+    "title": " - Rec League Division 8 Winter 2025 Happys",
+    "player": {
+        "player_id": "21997",
+        "org_id": "0",
+        "morg_id": "6077",
+        "member_id": "11297",
+        "team_id": "1256",
+        "season_id": "186",
+        "jersey_number": "26",
+        "jersey_numeric": "26",
+        "is_staff": "0",
+        "designated": "",
+        "status_id": "1",
+        "headshot_image": "",
+        "action_image": "",
+        "registration": "N",
+        "player_rating": "0",
+        "firstname": "David",
+        "lastname": "Wisniewski",
+        "nickname": "",
+        "email": "david.john.wisniewski@gmail.com",
+        "phone": "",
+        "sms": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "country": "0",
+        "postcode": "",
+        "dob": "0000-00-00",
+        "height": "",
+        "weight": "",
+        "home_town": "",
+        "shoots": "R",
+        "catches": "",
+        "avatar": "0",
+        "status": "Active",
+        "last_login": "1742989412",
+        "created_date": "2025-03-26 11:43:32",
+        "opt_out": "N",
+        "sms_opt_out": "0",
+        "sms_invites": "0",
+        "xbb_moderator": "N",
+        "blog_status": "on",
+        "xbb_status": "on",
+        "schedule_status": "on",
+        "comment_status": "on",
+        "visible_status": "on",
+        "session": "382d0801cc41efe036fca9d3df62a50a",
+        "admin": "",
+        "admin_type": "",
+        "admin_notifications": "",
+        "positions": [
+            {
+                "player_position_id": "26866",
+                "org_id": "347",
+                "player_id": "21997",
+                "position_id": "106",
+                "main_position": "Y",
+                "long_name": "Forward",
+                "short_name": "F",
+                "type": "Offense"
+            }
+        ],
+        "headshot": "x50",
+        "headshot_url": "https:\/\/d1c2851ymfarr0.cloudfront.net\/images\/xsyte\/0\/male_avatar.png",
+        "name": "David Wisniewski"
+    },
+    "sub_seasons": {
+        "E": "Exhibition",
+        "R": "Regular",
+        "P": "Playoff"
+    },
+    "individual_stats": [
+        {
+            "sport_stat_id": 116,
+            "long_name": "Games Played",
+            "short_name": "GP"
+        },
+        {
+            "sport_stat_id": 103,
+            "long_name": "Points",
+            "short_name": "P"
+        },
+        {
+            "sport_stat_id": 101,
+            "long_name": "Goal",
+            "short_name": "G"
+        },
+        {
+            "sport_stat_id": 102,
+            "long_name": "Assist",
+            "short_name": "A"
+        },
+        {
+            "sport_stat_id": 117,
+            "long_name": "Points per game",
+            "short_name": "PPG"
+        },
+        {
+            "sport_stat_id": 115,
+            "long_name": "Penalty",
+            "short_name": "PM"
+        }
+    ],
+    "gamelog_stats": [
+        {
+            "sport_stat_id": 103,
+            "long_name": "Points",
+            "short_name": "P"
+        },
+        {
+            "sport_stat_id": 101,
+            "long_name": "Goal",
+            "short_name": "G"
+        },
+        {
+            "sport_stat_id": 102,
+            "long_name": "Assist",
+            "short_name": "A"
+        },
+        {
+            "sport_stat_id": 117,
+            "long_name": "Points per game",
+            "short_name": "PPG"
+        },
+        {
+            "sport_stat_id": 115,
+            "long_name": "Penalty",
+            "short_name": "PM"
+        }
+    ],
+    "team": {
+        "team_id": "1256",
+        "org_id": "0",
+        "season_id": "186",
+        "conference_id": "0",
+        "franchise_id": "202",
+        "team_location": "",
+        "team_full_name": "Happys",
+        "team_nickname": "Happys",
+        "team_abbreviation": "Happys",
+        "dark_color": "000000",
+        "light_color": "ffb700",
+        "home_jersey_color": "ffb700",
+        "away_jersey_color": "000000",
+        "home_jersey_number_color": "ffffff",
+        "away_jersey_number_color": "ffb700",
+        "logo": "5503",
+        "logo_small": "",
+        "store_url": "",
+        "is_individual": "0",
+        "team_url": "FF",
+        "team_photo": "",
+        "photo_by": "0",
+        "team_password": "",
+        "standings_override": "0",
+        "points_adjusted": "0",
+        "logo_url": "https:\/\/d1c2851ymfarr0.cloudfront.net\/images\/X001-000347\/happys-10791-1742918865.png.png"
+    },
+    "season": {
+        "season_id": "186",
+        "org_id": "0",
+        "division_id": "45",
+        "season_name": "Winter 2025",
+        "season_description": "",
+        "age_date": "2000-01-01",
+        "gender": "",
+        "season_status": "active",
+        "first_place": "0",
+        "second_place": "0",
+        "third_place": "0",
+        "scoring_method": "1",
+        "hide_stats": null,
+        "hide_stars": null,
+        "cluster_id": "1",
+        "division_long_name": "Division 8",
+        "division_short_name": "8",
+        "division_description": "",
+        "division_order": "8",
+        "division_type_id": "1",
+        "minimum_age": "15",
+        "maximum_age": "0",
+        "game_length": "48",
+        "ideal_players": "25",
+        "division_logo": "4898",
+        "parent_id": "0",
+        "featured": "N",
+        "sport_id": "1",
+        "game_segment_type_id": "30",
+        "game_segment_time": "00:16:00",
+        "cluster_long_name": "Rec League",
+        "cluster_short_name": "Rec League",
+        "cluster_description": "",
+        "cluster_order": "1",
+        "cluster_logo": "2151",
+        "cluster_status": "1"
+    },
+    "is_player": false,
+    "awards": [],
+    "all_awards": [
+        {
+            "player_award_id": "14862",
+            "org_id": "0",
+            "morg_id": "6077",
+            "game_id": "6503",
+            "game_award_identifier": "_0",
+            "member_id": "0",
+            "player_id": "19089",
+            "award_id": "8",
+            "award_date": "1725728418",
+            "comment": "",
+            "award_rank": "1020",
+            "xsyte_type_id": "0",
+            "award_name": "3rd Star",
+            "award_type": "game",
+            "description": "<p>3rd Star of the Game<\/p>",
+            "file_name": "2741",
+            "use_bg_color": ""
+        }
+    ],
+    "career_divisions": {
+        "45": {
+            "name": "Division 8",
+            "cluster_name": "Rec League",
+            "logo": "4898",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                }
+            },
+            "seasons": {
+                "186": {
+                    "season_info": {
+                        "player_id": "21997",
+                        "org_id": "0",
+                        "morg_id": "6077",
+                        "member_id": "0",
+                        "team_id": "1256",
+                        "season_id": "186",
+                        "jersey_number": "26",
+                        "jersey_numeric": "26",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "202",
+                        "team_location": "",
+                        "team_full_name": "Happys",
+                        "team_nickname": "Happys",
+                        "team_abbreviation": "Happys",
+                        "dark_color": "000000",
+                        "light_color": "ffb700",
+                        "home_jersey_color": "ffb700",
+                        "away_jersey_color": "000000",
+                        "home_jersey_number_color": "ffffff",
+                        "away_jersey_number_color": "ffb700",
+                        "logo": "5503",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "FF",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "45",
+                        "season_name": "Winter 2025",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "active",
+                        "first_place": "0",
+                        "second_place": "0",
+                        "third_place": "0",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 8",
+                        "division_short_name": "8",
+                        "division_description": "",
+                        "division_order": "8",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4898",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "26866",
+                            "org_id": "347",
+                            "player_id": "21997",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        },
+        "46": {
+            "name": "Division 9",
+            "cluster_name": "Rec League",
+            "logo": "4903",
+            "totals": {
+                "E": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 0,
+                    "103": 0,
+                    "114": 0,
+                    "115": 0,
+                    "116": 0,
+                    "117": 0
+                },
+                "R": {
+                    "100": 0,
+                    "101": 3,
+                    "102": 2,
+                    "103": 5,
+                    "114": 0,
+                    "115": 4,
+                    "116": 21,
+                    "117": 0.47
+                },
+                "P": {
+                    "100": 0,
+                    "101": 0,
+                    "102": 1,
+                    "103": 1,
+                    "114": 0,
+                    "115": 2,
+                    "116": 4,
+                    "117": 0.5
+                }
+            },
+            "seasons": {
+                "165": {
+                    "season_info": {
+                        "player_id": "20137",
+                        "org_id": "0",
+                        "morg_id": "6077",
+                        "member_id": "0",
+                        "team_id": "1137",
+                        "season_id": "165",
+                        "jersey_number": "26",
+                        "jersey_numeric": "26",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "184",
+                        "team_location": "",
+                        "team_full_name": "Super Tacks Tigers",
+                        "team_nickname": "Tigers",
+                        "team_abbreviation": "Tigers",
+                        "dark_color": "dade00",
+                        "light_color": "000000",
+                        "home_jersey_color": "dade00",
+                        "away_jersey_color": "dade00",
+                        "home_jersey_number_color": "000000",
+                        "away_jersey_number_color": "000000",
+                        "logo": "4699",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "46",
+                        "season_name": "Summer 24\/25",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1137",
+                        "second_place": "1136",
+                        "third_place": "1135",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 9",
+                        "division_short_name": "9",
+                        "division_description": "",
+                        "division_order": "9",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4903",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "1",
+                            "102": 1,
+                            "103": 2,
+                            "114": 0,
+                            "115": "2",
+                            "116": "9",
+                            "117": "0.22"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": "2",
+                            "116": "2",
+                            "117": "0.00"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "24635",
+                            "org_id": "347",
+                            "player_id": "20137",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                },
+                "152": {
+                    "season_info": {
+                        "player_id": "19089",
+                        "org_id": "0",
+                        "morg_id": "6077",
+                        "member_id": "0",
+                        "team_id": "1053",
+                        "season_id": "152",
+                        "jersey_number": "26",
+                        "jersey_numeric": "26",
+                        "is_staff": "0",
+                        "designated": "",
+                        "status_id": "1",
+                        "headshot_image": "",
+                        "action_image": "",
+                        "registration": "N",
+                        "player_rating": "0",
+                        "conference_id": "0",
+                        "franchise_id": "184",
+                        "team_location": "",
+                        "team_full_name": "Super Tacks Tigers",
+                        "team_nickname": "Tigers",
+                        "team_abbreviation": "Tigers",
+                        "dark_color": "dade00",
+                        "light_color": "000000",
+                        "home_jersey_color": "dade00",
+                        "away_jersey_color": "dade00",
+                        "home_jersey_number_color": "000000",
+                        "away_jersey_number_color": "000000",
+                        "logo": "4699",
+                        "logo_small": "",
+                        "store_url": "",
+                        "is_individual": "0",
+                        "team_url": "",
+                        "team_photo": "",
+                        "photo_by": "0",
+                        "team_password": "",
+                        "standings_override": "0",
+                        "points_adjusted": "0",
+                        "division_id": "46",
+                        "season_name": "Winter 2024",
+                        "season_description": "",
+                        "age_date": "2000-01-01",
+                        "gender": "",
+                        "season_status": "completed",
+                        "first_place": "1050",
+                        "second_place": "1053",
+                        "third_place": "1051",
+                        "scoring_method": "1",
+                        "hide_stats": null,
+                        "hide_stars": null,
+                        "cluster_id": "1",
+                        "division_long_name": "Division 9",
+                        "division_short_name": "9",
+                        "division_description": "",
+                        "division_order": "9",
+                        "division_type_id": "1",
+                        "minimum_age": "15",
+                        "maximum_age": "0",
+                        "game_length": "48",
+                        "ideal_players": "25",
+                        "division_logo": "4903",
+                        "parent_id": "0",
+                        "featured": "N",
+                        "sport_id": "1",
+                        "game_segment_type_id": "30",
+                        "game_segment_time": "00:16:00",
+                        "cluster_long_name": "Rec League",
+                        "cluster_short_name": "Rec League",
+                        "cluster_description": "",
+                        "cluster_order": "1",
+                        "cluster_logo": "2151",
+                        "cluster_status": "1"
+                    },
+                    "stats": {
+                        "E": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 0,
+                            "103": 0,
+                            "114": 0,
+                            "115": 0,
+                            "116": 0,
+                            "117": "0.00"
+                        },
+                        "R": {
+                            "100": 0,
+                            "101": "2",
+                            "102": 1,
+                            "103": 3,
+                            "114": 0,
+                            "115": "2",
+                            "116": "12",
+                            "117": "0.25"
+                        },
+                        "P": {
+                            "100": 0,
+                            "101": 0,
+                            "102": 1,
+                            "103": 1,
+                            "114": 0,
+                            "115": 0,
+                            "116": "2",
+                            "117": "0.50"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "player_position_id": "22695",
+                            "org_id": "0",
+                            "player_id": "19089",
+                            "position_id": "106",
+                            "main_position": "Y",
+                            "long_name": "Forward",
+                            "short_name": "F",
+                            "type": "Offense"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "player_season_totals": {
+        "E": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": "0.00"
+        },
+        "R": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": "0.00"
+        },
+        "P": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": "0.00"
+        }
+    },
+    "player_season_stat_attribute_totals": {
+        "E": {
+            "101": 0,
+            "102": 0
+        },
+        "R": {
+            "101": 0,
+            "102": 0
+        },
+        "P": {
+            "101": 0,
+            "102": 0
+        }
+    },
+    "player_career_totals": {
+        "21997": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            }
+        },
+        "20137": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "1",
+                "102": 1,
+                "103": 2,
+                "114": 0,
+                "115": "2",
+                "116": "9",
+                "117": "0.22"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": "2",
+                "116": "2",
+                "117": "0.00"
+            }
+        },
+        "19089": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": "0.00"
+            },
+            "R": {
+                "100": 0,
+                "101": "2",
+                "102": 1,
+                "103": 3,
+                "114": 0,
+                "115": "2",
+                "116": "12",
+                "117": "0.25"
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 1,
+                "103": 1,
+                "114": 0,
+                "115": 0,
+                "116": "2",
+                "117": "0.50"
+            }
+        }
+    },
+    "player_career_stat_attribute_totals": {
+        "21997": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": 0,
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "20137": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "1",
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": 0
+            }
+        },
+        "19089": {
+            "E": {
+                "101": 0,
+                "102": 0
+            },
+            "R": {
+                "101": "1",
+                "102": 0
+            },
+            "P": {
+                "101": 0,
+                "102": "1"
+            }
+        }
+    },
+    "player_game_stat_totals": [],
+    "player_game_stat_attribute_totals": [],
+    "division_totals": {
+        "45": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            }
+        },
+        "46": {
+            "E": {
+                "100": 0,
+                "101": 0,
+                "102": 0,
+                "103": 0,
+                "114": 0,
+                "115": 0,
+                "116": 0,
+                "117": 0
+            },
+            "R": {
+                "100": 0,
+                "101": 3,
+                "102": 2,
+                "103": 5,
+                "114": 0,
+                "115": 4,
+                "116": 21,
+                "117": 0.47
+            },
+            "P": {
+                "100": 0,
+                "101": 0,
+                "102": 1,
+                "103": 1,
+                "114": 0,
+                "115": 2,
+                "116": 4,
+                "117": 0.5
+            }
+        }
+    },
+    "uses_jersey_numbers": true,
+    "hide_stats": true,
+    "player_notes": null,
+    "highlights": [],
+    "games": [],
+    "team_admin_morg_ids": [
+        "6870",
+        "5869",
+        "6216",
+        "5367"
+    ]
+}

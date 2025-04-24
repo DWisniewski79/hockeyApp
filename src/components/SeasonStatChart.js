@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
-import statsData from './Juzzy.json';
+import statsData from './Me.json';
 
 import {
   Chart as ChartJS,
@@ -89,6 +89,8 @@ const formatForChartJS = (statName, data) => {
 
   const color = statColors[statName]?.main || 'rgb(99, 102, 241)';
   const bg = statColors[statName]?.light || 'rgba(99, 102, 241, 0.1)';
+  const GamesPlayedColour = statColors["GamesPlayed"]?.main || 'rgb(99, 102, 241)';
+  const GamesPlayedStats = data.filter(s => s.stat === statMap[116] && s.type === "Regular");
 
   const chartData = {
     labels: filtered.map(s => s.season),
@@ -101,6 +103,16 @@ const formatForChartJS = (statName, data) => {
         borderColor: color,
         backgroundColor: color,
         pointBackgroundColor: color,
+        borderWidth: 2
+      },
+      {
+        label: 'Games Played',
+        data: GamesPlayedStats.map(s => s.value),
+        fill: false,
+        tension: 0.3,
+        borderColor: GamesPlayedColour,
+        backgroundColor: GamesPlayedColour,
+        pointBackgroundColor: GamesPlayedColour,
         borderWidth: 2
       }
     ]
