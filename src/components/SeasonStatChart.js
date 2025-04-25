@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
-import statsData from './Me.json';
+import statsData from './Juzzy.json';
 
 import {
   Chart as ChartJS,
@@ -166,7 +166,7 @@ const SeasonStatChart = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-4">
-      <div className="bg-gradient-to-br from-indigo-100 to-purple-100 shadow-xl rounded-2xl p-6 border border-indigo-200">
+      <div className="bg-gradient-to-br from-red-100 to-purple-100 shadow-xl rounded-2xl p-6 border border-indigo-200">
         <h2 className="text-2xl font-bold text-indigo-900 mb-4 tracking-tight">
           {selectedStat} Over Seasons
         </h2>
@@ -188,7 +188,7 @@ const SeasonStatChart = () => {
           </select>
         </div>
 
-        <div key={selectedStat} className="transition-opacity duration-500 ease-in-out opacity-0 animate-fade-in">
+        <div key={selectedStat} className="opacity-0 animate-fade-in">
           <Line data={chartData} options={chartOptions} />
         </div>
       </div>
