@@ -1,0 +1,146 @@
+
+// Define your data source (PostgreSQL in this case)
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL") // This points to your PostgreSQL database URL
+}
+
+// Define the Prisma Client generator (JavaScript/TypeScript client)
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl"]
+  engineType = "binary"
+}
+
+// Define your data models
+
+model Player {
+  player_id     Int      @id @default(autoincrement())  // Internal DB ID
+  api_player_id Int      @unique                      // API-provided ID (External)
+  first_name    String
+  last_name     String
+  full_name     String
+  jersey_number Int
+  position      String
+  shoots        String?
+  headshot_url   String?
+  status        String?
+  teamHistory   PlayerTeamHistory[] // Player team history (if needed)
+  gameStats     PlayerGameStats[]   // Player game stats
+  awards        GameAwards[]        // Player game awards
+  positions     PlayerPosition[]    // Positions the player has played
+}
+
+model Team {
+  team_id       Int      @id @default(autoincrement())  // Internal DB ID
+  api_team_id   Int      @unique                        // API-provided ID (External)
+  team_name     String
+  team_abbreviation String
+  dark_color    String
+  light_color   String
+  logo_url      String?
+  gameResults   GameResult[]
+  opponentGames GameResult[] @relation("Opponent")
+  teamStats     TeamGameStats[]
+  teamHistory   PlayerTeamHistory[]
+  homeGames     Game[]    @relation("HomeTeam")
+  awayGames     Game[]    @relation("AwayTeam")
+}
+
+model PlayerTeamHistory {
+  player_team_history_id Int   @id @default(autoincrement()) 
+  player_id              Int
+  team_id                Int
+  season_id              Int
+  start_date            DateTime
+  end_date              DateTime?
+  player                Player @relation(fields: [player_id], references: [player_id])
+  team                  Team   @relation(fields: [team_id], references: [team_id])
+  season                Season @relation(fields: [season_id], references: [season_id])
+}
+
+model Game {
+  game_id      Int      @id @default(autoincrement()) // Internal DB ID
+  api_game_id  Int      @unique                      // API-provided ID (External)
+  game_date    DateTime
+  game_time    DateTime
+  home_team_id Int
+  away_team_id Int
+  home_score   Int
+  away_score   Int
+  game_status  String
+  homeTeam     Team     @relation("HomeTeam", fields: [home_team_id], references: [team_id])
+  awayTeam     Team     @relation("AwayTeam", fields: [away_team_id], references: [team_id])
+  gameResults  GameResult[]
+  playerStats  PlayerGameStats[]
+  awards       GameAwards[]
+  teamStats    TeamGameStats[]
+}
+
+model PlayerGameStats {
+  stat_id     Int      @id @default(autoincrement())
+  game_id     Int
+  player_id   Int
+  goals       Int
+  assists     Int
+  points      Int
+  penalties   Int
+  game        Game     @relation(fields: [game_id], references: [game_id])
+  player      Player   @relation(fields: [player_id], references: [player_id])
+}
+
+model GameAwards {
+  game_award_id Int      @id @default(autoincrement())
+  game_id       Int
+  player_id     Int
+  award_name    String
+  points        Int
+  award_date    DateTime
+  game          Game     @relation(fields: [game_id], references: [game_id])
+  player        Player   @relation(fields: [player_id], references: [player_id])
+}
+
+model TeamGameStats {
+  stat_id     Int      @id @default(autoincrement())
+  game_id     Int
+  team_id     Int
+  goals       Int
+  shots_on_goal Int
+  penalties   Int
+  game        Game     @relation(fields: [game_id], references: [game_id])
+  team        Team     @relation(fields: [team_id], references: [team_id])
+}
+
+model Season {
+  season_id    Int      @id @default(autoincrement())  // Internal DB ID
+  api_season_id Int     @unique                        // API-provided ID (External)
+  season_name  String
+  start_date   DateTime
+  end_date     DateTime
+  season_status String
+  playerTeamHistory PlayerTeamHistory[]
+  playerPositions PlayerPosition[]
+}
+
+model PlayerPosition {
+  position_id   Int     @id @default(autoincrement())  // Internal DB ID
+  player_id     Int
+  position_name String
+  season_id     Int
+  is_primary    Boolean // Flag to mark primary position
+  player        Player  @relation(fields: [player_id], references: [player_id])
+  season        Season  @relation(fields: [season_id], references: [season_id])
+}
+
+model GameResult {
+  result_id   Int      @id @default(autoincrement())
+  game_id     Int
+  team_id     Int
+  opponent_id Int
+  goals_for   Int
+  goals_against Int
+  result      String   // W for win, L for loss
+  game        Game     @relation(fields: [game_id], references: [game_id])
+  team        Team     @relation(fields: [team_id], references: [team_id])
+  opponent    Team     @relation("Opponent", fields: [opponent_id], references: [team_id])
+}
