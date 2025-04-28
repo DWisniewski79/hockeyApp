@@ -20,10 +20,8 @@ export default function GetNavBar() {
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    const renderNavLinks = (linkClassName, withTransition = false) => (
-        navigation.map((item, index) => {
-            const delay = `${index * 75}ms`; //Delay per item
-            const link = (
+    const renderNavLinks = (linkClassName) => (
+        navigation.map((item) => (
           <NavLink
             key={item.name}
             to={item.href}
@@ -33,27 +31,9 @@ export default function GetNavBar() {
           >
             {item.name}
           </NavLink>
-        );
-
-
-    return withTransition ? (
-        <TransitionChild
-                as="div"
-                key={item.name}
-                style={{ transitionDelay: delay }}  // delay each link slightly
-                className="transition-all duration-500 ease-out
-                data-[state=open]:opacity-100 data-[state=open]:translate-x-0
-                data-[state=closed]:opacity-0 data-[state=closed]:translate-x-4"
-            >
-                {link}
-            </TransitionChild>
-            ) : (
-                <div key={item.name}>
-                {link}
-                </div>
-            );
-        })
-    );
+        ))
+      );
+      
 
     return(
         <header className="absolute inset-x-0 top-0 z-50">
@@ -73,7 +53,7 @@ export default function GetNavBar() {
 
             {/* CENTER: Nav Links (hidden on mobile) */}
             <div className="hidden lg:flex flex-1 justify-center gap-x-12">
-                {renderNavLinks('text-sm font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 hover:text-amber-500 hover:bg-gray-100 hover:scale-105 active:scale-95', false)}
+                {renderNavLinks('text-sm font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 hover:text-amber-500 hover:bg-gray-100 hover:scale-105 active:scale-95')}
             </div>
 
             {/* RIGHT: Mobile Menu Button (hidden on desktop) */}
@@ -146,7 +126,7 @@ export default function GetNavBar() {
                                     </div>
                                     <div className="mt-6 flow-root">
                                         <div className="flex flex-col space-y-4">
-                                            {renderNavLinks('text-lg font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 text-lg font-semibold transition-all duration-150 ease-in-out hover:bg-gray-100 hover:text-amber-500 active:scale-95', true)}
+                                            {renderNavLinks('text-lg font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 text-lg font-semibold transition-all duration-150 ease-in-out hover:bg-gray-100 hover:text-amber-500 active:scale-95')}
                                         </div>
                                     </div>
                                 </DialogPanel>
