@@ -19,6 +19,42 @@ const navigation = [
 export default function GetNavBar() {
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+    const renderNavLinks = (linkClassName, withTransition = false) => (
+        navigation.map((item, index) => {
+            const delay = `${index * 75}ms`; //Delay per item
+            const link = (
+          <NavLink
+            key={item.name}
+            to={item.href}
+            className={({ isActive }) =>
+              `${linkClassName} ${isActive ? 'text-amber-500' : 'text-gray-900'}`
+            }
+          >
+            {item.name}
+          </NavLink>
+        );
+
+
+    return withTransition ? (
+        <TransitionChild
+                as="div"
+                key={item.name}
+                style={{ transitionDelay: delay }}  // delay each link slightly
+                className="transition-all duration-500 ease-out
+                data-[state=open]:opacity-100 data-[state=open]:translate-x-0
+                data-[state=closed]:opacity-0 data-[state=closed]:translate-x-4"
+            >
+                {link}
+            </TransitionChild>
+            ) : (
+                <div key={item.name}>
+                {link}
+                </div>
+            );
+        })
+    );
+
     return(
         <header className="absolute inset-x-0 top-0 z-50">
             <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
@@ -37,19 +73,7 @@ export default function GetNavBar() {
 
             {/* CENTER: Nav Links (hidden on mobile) */}
             <div className="hidden lg:flex flex-1 justify-center gap-x-12">
-                {navigation.map((item) => (
-                <NavLink
-                    key={item.name}
-                    to={item.href}
-                    className={({ isActive }) => 
-                    `text-sm font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2
-                    ${isActive ? 'text-amber-500' : 'text-gray-900'}
-                    hover:text-amber-500 hover:bg-gray-100hover:scale-105 active:scale-95`
-                    }
-                >
-                    {item.name}
-                </NavLink>
-                ))}
+                {renderNavLinks('text-sm font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 hover:text-amber-500 hover:bg-gray-100 hover:scale-105 active:scale-95', false)}
             </div>
 
             {/* RIGHT: Mobile Menu Button (hidden on desktop) */}
@@ -70,48 +94,65 @@ export default function GetNavBar() {
             </div>
 
             </nav>
-            <Transition show={mobileMenuOpen} as="div"> 
+            
+            {/* Mobile menu, show/hide based on menu state */}
+            <Transition appear show={mobileMenuOpen} as={Fragment}>
                 <Dialog as="div" className="relative z-50 lg:hidden" onClose={setMobileMenuOpen}>
-
-                    {/* Overlay */}
-                    <div className="fixed inset-0 bg-black/25 bg-opacity-50" />
+                    {/* Background overlay */}
                     <TransitionChild
-                        as="div"
-                        className="fixed inset-y-0 left-0 w-64 bg-white p-4
-                                    transition-transform duration-500 ease-in-out
-                                    data-[state=open]:translate-x-full
-                                    data-[state=closed]:-translate-x-0">
-                            <DialogPanel className="w-full h-full">
-                                <div className="flex items-center justify-between">
-                                    <a href="#">
-                                        <img
-                                            alt="Logo"
-                                            src={logo}
-                                            className="h-16 w-auto"
-                                        />
-                                    </a>
-                                    <button
-                                        type="button"
-                                        onClick={() => setMobileMenuOpen(false)}>
-                                            <XMarkIcon aria-hidden="true" className="h-6 w-6" />
-                                    </button>
-                                </div>
-                                <div className="mt-6 flow-root">
-                                    <div className="flex flex-col items-center space-y-4">
-                                        {navigation.map((item) => (
-                                            <NavLink
-                                                key={item.name}
-                                                to={item.href}
-                                                className={({ isActive }) => 
-                                                        `text-lg font-semibold ${isActive ? 'text-amber-500' : 'text-gray-900'}`}
-                                                >
-                                                {item.name}
-                                            </NavLink>
-                                        ))}
-                                    </div>
-                                </div>
-                            </DialogPanel>
+                        as={Fragment}
+                        enter="ease-out duration-300"
+                        enterFrom="opacity-0"
+                        enterTo="opacity-75"
+                        leave="ease-in duration-200"
+                        leaveFrom="opacity-75"
+                        leaveTo="opacity-0"
+                    >
+                        <div className="fixed inset-0 bg-black/25 backdrop-blur-sm
+                        transition-opacity duration-300 ease-in-out
+                        data-[state=open]:opacity-100
+                        data-[state=closed]:opacity-0" />
                     </TransitionChild>
+
+                    <div className="fixed inset-0 overflow-y-auto">
+                        <div className="flex min-h-full items-start justify-start">
+                            {/* Menu panel */}
+                            <TransitionChild
+                                as={Fragment}
+                                enter="ease-out duration-300 transform"
+                                enterFrom="-translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="ease-in duration-200 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="-translate-x-full"
+                            >
+                                <DialogPanel className="fixed inset-y-0 left-0 w-64 overflow-y-auto bg-white px-6 py-6">
+                                    <div className="flex items-center justify-between">
+                                        <a href="#" className="-m-1.5 p-1.5">
+                                            <img
+                                                alt="Logo"
+                                                src={logo}
+                                                className="h-16 w-auto"
+                                            />
+                                        </a>
+                                        <button
+                                            type="button"
+                                            onClick={() => setMobileMenuOpen(false)}
+                                            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                                        >
+                                            <span className="sr-only">Close menu</span>
+                                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                                        </button>
+                                    </div>
+                                    <div className="mt-6 flow-root">
+                                        <div className="flex flex-col space-y-4">
+                                            {renderNavLinks('text-lg font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 text-lg font-semibold transition-all duration-150 ease-in-out hover:bg-gray-100 hover:text-amber-500 active:scale-95', true)}
+                                        </div>
+                                    </div>
+                                </DialogPanel>
+                            </TransitionChild>
+                        </div>
+                    </div>
                 </Dialog>
             </Transition>
         </header>
