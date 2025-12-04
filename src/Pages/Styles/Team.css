@@ -1,0 +1,6 @@
+.team-page-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    background-color: red-500;
+}

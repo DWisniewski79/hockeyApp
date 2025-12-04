@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/bruinsRipoff.png'
+import logo from '../assets/MediumText2.svg'
 import { Transition, TransitionChild } from '@headlessui/react'
 import { Fragment } from 'react'
 
@@ -12,7 +12,7 @@ import { Fragment } from 'react'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Team', href: '/team' },
-  { name: 'Community', href: '/community' },
+  { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' }
 ]
 
@@ -20,33 +20,56 @@ export default function GetNavBar() {
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    const renderNavLinks = (linkClassName) => (
-        navigation.map((item) => (
-          <NavLink
-            key={item.name}
-            to={item.href}
-            className={({ isActive }) =>
-              `${linkClassName} ${isActive ? 'text-amber-500' : 'text-gray-900'}`
-            }
-          >
-            {item.name}
-          </NavLink>
+    const renderNavLinks = (linkClassName, staggered = false) => (
+        navigation.map((item, index) => (
+          staggered ? (
+            <div 
+              key={item.name}
+              style={{ 
+                transitionProperty: 'all',
+                transitionDuration: '300ms',
+                transitionTimingFunction: 'ease-in-out',
+                transitionDelay: `${index * 100}ms`,
+                opacity: mobileMenuOpen ? 1 : 0,
+                transform: mobileMenuOpen ? 'translateX(0)' : 'translateX(-20px)'
+              }}
+            >
+              <NavLink
+                to={item.href}
+                className={({ isActive }) =>
+                  `${linkClassName} ${isActive ? 'text-brand-retroYellow' : 'text-brand-magenta'}`
+                }
+              >
+                {item.name}
+              </NavLink>
+            </div>
+          ) : (
+            <NavLink
+              key={item.name}
+              to={item.href}
+              className={({ isActive }) =>
+                `${linkClassName} ${isActive ? 'text-brand-retroYellow' : 'text-brand-magenta'}`
+              }
+            >
+              {item.name}
+            </NavLink>
+          )
         ))
       );
       
 
     return(
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="absolute inset-x-0 top-0 z-50 bg-brand-black/80 backdrop-blur-sm shadow-md border-b border-brand-greyLight">
             <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
             
             {/* LEFT: Logo */}
-            <div className="flex flex-1 justify-start">
+            <div className="flex flex-1 relative size-16 justify-start">
                 <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
                     alt="Logo"
                     src={logo}
-                    className="h-16 w-auto"
+                    className="absolute inset-y-0 left-0 h-16 w-auto pb-2"
                 />
                 </a>
             </div>
@@ -64,7 +87,7 @@ export default function GetNavBar() {
                 className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
                 >
                 <span className="sr-only">Open main menu</span>
-                <Bars3Icon aria-hidden="true" className="h-6 w-6" />
+                <Bars3Icon aria-hidden="true" className="h-6 w-6 text-brand-retroYellow"/>
                 </button>
             </div>
 
@@ -106,7 +129,7 @@ export default function GetNavBar() {
                                 leaveFrom="translate-x-0"
                                 leaveTo="-translate-x-full"
                             >
-                                <DialogPanel className="fixed inset-y-0 left-0 w-64 overflow-y-auto bg-white px-6 py-6">
+                                <DialogPanel className="fixed inset-y-0 left-0 w-64 overflow-y-auto bg-brand-greyLight px-6 py-6">
                                     <div className="flex items-center justify-between">
                                         <a href="#" className="-m-1.5 p-1.5">
                                             <img
@@ -124,9 +147,9 @@ export default function GetNavBar() {
                                             <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                                         </button>
                                     </div>
-                                    <div className="mt-6 flow-root">
-                                        <div className="flex flex-col space-y-4">
-                                            {renderNavLinks('text-lg font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 text-lg font-semibold transition-all duration-150 ease-in-out hover:bg-gray-100 hover:text-amber-500 active:scale-95')}
+                                    <div className="mt-6 flow-root bg-color-pink-500">
+                                        <div className="flex flex-col space-y-4 bg-color-blue-500">
+                                            {renderNavLinks('text-lg font-semibold transition duration-150 ease-in-out rounded-md px-3 py-2 text-lg font-semibold transition-all duration-150 ease-in-out hover:bg-gray-100 hover:text-amber-500 active:scale-95', true)}
                                         </div>
                                     </div>
                                 </DialogPanel>
@@ -135,6 +158,7 @@ export default function GetNavBar() {
                     </div>
                 </Dialog>
             </Transition>
+            <div className="absolute w-full inset-x-0 bottom-0 h-1 bg-gradient-to-r from-brand-magenta via-brand-purple to-brand-teal"></div>
         </header>
 
     );

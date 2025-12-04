@@ -1,13 +1,11 @@
 import React from 'react';
 import GetNavBar from '../components/Navbar';
-import HappysTeamPlayers from '../components/Team/TeamData';
+import TeamCarousel from '../components/Team/TeamData';
+import {TeamHeader} from '../components/Team/TeamHeader';
+import './Styles/Team.css';
 
-const Team = () => {
+export default function Team() {
   return (
-    <>
-      <GetNavBar />
-    </>
+        <TeamCarousel/>
   );
 }
-
-export default Team;
