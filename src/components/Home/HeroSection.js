@@ -26,7 +26,7 @@ export function HeroSection() {
   ];
   return (
     <section className="relative w-full overflow-hidden bg-brand-black">
-      <div className="absolute w-full inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-magenta via-brand-purple to-brand-teal"></div>
+      
 
       {/* --------------------------------------------- */}
       {/* HERO MAIN CONTENT                              */}
