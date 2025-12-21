@@ -1,16 +1,53 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Heading from "../../designSystem/Heading";
 import Button from "../../designSystem/Button";
 import Card from "../../designSystem/Card";
 import logo from "../../assets/resizedMascot.svg";
 export function HeroSection() {
 
-  const nextGame = {
-    opponent: "Thunder Wolves",
-    date: "Sat 14 Jun",
-    time: "7:30 PM",
-    venue: "Local Ice Arena 1",
-  };
+  // const nextGame = {
+  //   opponent: "Thunder Wolves",
+  //   date: "Sat 14 Jun",
+  //   time: "7:30 PM",
+  //   venue: "Local Ice Arena 1",
+  // };
+  const [isLoading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
+
+  const getNextGame = async () => {
+    try {
+      const response = await fetch('https://icehq.hockeysyte.com/api/teams/team?team_id=1393&api_key=hYYUDGj632husuyq&format=json', {
+        method: 'GET'
+      });
+      const json = await response.json();
+      setData(json);
+    } catch (error) {
+      console.error('Error fetching next match:', error);
+      return null;
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  useEffect(() => {
+    getNextGame();
+  }, []);
+
+
+  if(!isLoading) {
+
+  let lastGame = data.games
+
+
+  const lastGameData = findLastResult(lastGame || []);  
+
+  console.log("Last Game Data:", lastGameData);
+
+  }
+
+  const teamId = 1393;
+
+  
 
   const lastResult = {
     opponent: "Frostbite Flyers",
@@ -19,6 +56,7 @@ export function HeroSection() {
     date: "Sat 7 Jun",
   };
 
+
   const ladder = [
     { team: "Mustangs", played: 10, points: 18, position: 2 },
     { team: "Thunder Wolves", played: 10, points: 20, position: 1 },
@@ -26,6 +64,8 @@ export function HeroSection() {
   ];
   return (
     <section className="relative w-full overflow-hidden bg-brand-black">
+
+    
       
 
       {/* --------------------------------------------- */}
@@ -68,15 +108,15 @@ export function HeroSection() {
             </p>
 
             <h3 className="mt-1 text-lg font-bold text-brand-white">
-              vs {nextGame.opponent}
+              vs {data.next_game.teams[0].team_full_name}
             </h3>
 
             <p className="text-sm text-brand-white/70 mt-1">
-              {nextGame.date} • {nextGame.time}
+              {data.next_game.date} • {data.next_game.time}
             </p>
 
             <p className="text-sm text-brand-white/50 mt-3">
-              Venue: {nextGame.venue}
+              Venue: {data.next_game.location}
             </p>
           </Card>
 
@@ -87,19 +127,45 @@ export function HeroSection() {
               </p>
 
               <h3 className="mt-1 text-lg font-bold text-brand-white">
-                {lastResult.result}: {lastResult.score}
+                {lastGameData.teamId.result}: {lastGameData.teamId.final}
               </h3>
 
               <p className="text-sm text-brand-white/70 mt-1">
-                vs {lastResult.opponent}
+                vs {lastGameData.teams[1].team_full_name}
               </p>
 
               <p className="text-sm text-brand-white/50 mt-3">
-                {lastResult.date}
+                {lastGameData.display_date}
               </p>
           </Card>
         </div>
       </div>
     </section>
   );
+}
+
+function findLastResult(games) {
+  const completedGames = games.filter(game => game.game_result !== false);
+
+  completedGames.sort((a, b) => a.integer_time - b.integer_time);
+
+  const lastGame = completedGames.length > 0 ? completedGames[completedGames.length - 1] : null;
+
+  return lastGame;
+}
+
+
+const getLastGameByIndex = (allGames, nextGame) => {
+    // 1. Safety Check: If there is no next game (season over), this method breaks
+    if (!nextGame) return null; 
+
+    // 2. Find the index of the next game using the ID
+    const nextGameIndex = allGames.findIndex(game => game.game_id === nextGame.game_id);
+
+    // 3. Handle the "First Game of Season" edge case
+    // If nextGame is at index 0, there IS no previous game (index -1)
+    if (nextGameIndex <= 0) return null;
+
+    // 4. Return the game at the previous index
+    return allGames[nextGameIndex - 1];
 }
