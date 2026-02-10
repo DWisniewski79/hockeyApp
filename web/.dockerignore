@@ -1,0 +1,10 @@
+node_modules
+.git
+.DS_Store
+.vscode
+*.log
+# Added to prevent secrets and local builds from leaking into the image
+.env
+build
+dist
+coverage

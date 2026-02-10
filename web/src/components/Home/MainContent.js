@@ -40,8 +40,6 @@ export default function ContentLayout() {
   ];
 
 
-  };
-
   // 2. DATA: Existing Ladder & Game Data
   const nextGame = {
     opponent: "Thunder Wolves",

@@ -12,40 +12,47 @@ export function HeroSection() {
   //   venue: "Local Ice Arena 1",
   // };
   const [isLoading, setLoading] = useState(true);
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  const getNextGame = async () => {
-    try {
-      const response = await fetch('https://icehq.hockeysyte.com/api/teams/team?team_id=1393&api_key=hYYUDGj632husuyq&format=json', {
-        method: 'GET'
-      });
-      const json = await response.json();
-      setData(json);
-    } catch (error) {
-      console.error('Error fetching next match:', error);
-      return null;
-    } finally {
-      setLoading(false);
-    }
-  }
+  // const getNextGame = async () => {
+  //   try {
+  //     const response = await fetch('https://icehq.hockeysyte.com/api/teams/team?team_id=1393&api_key=hYYUDGj632husuyq&format=json', {
+  //       method: 'GET'
+  //     });
+  //     const json = await response.json();
+  //     setData(json);
+  //   } catch (error) {
+  //     console.error('Error fetching next match:', error);
+  //     return null;
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // }
 
-  useEffect(() => {
-    getNextGame();
-  }, []);
-
-
-  if(!isLoading) {
-
-  let lastGame = data.games
+  // useEffect(() => {
+  //   getNextGame();
+  // }, []);
 
 
-  const lastGameData = findLastResult(lastGame || []);  
+  // if(!isLoading) {
 
-  console.log("Last Game Data:", lastGameData);
+  // let lastGame = data.games
 
-  }
+
+  // const lastGameData = findLastResult(lastGame || []);  
+
+  // console.log("Last Game Data:", lastGameData);
+
+  // }
 
   const teamId = 1393;
+
+    const nextGame = {
+    opponent: "Thunder Wolves",
+    date: "Sat 14 Jun",
+    time: "7:30 PM",
+    venue: "Local Ice Arena 1",
+  };
 
   
 
@@ -108,15 +115,15 @@ export function HeroSection() {
             </p>
 
             <h3 className="mt-1 text-lg font-bold text-brand-white">
-              vs {data.next_game.teams[0].team_full_name}
+              vs {nextGame.opponent}
             </h3>
 
             <p className="text-sm text-brand-white/70 mt-1">
-              {data.next_game.date} • {data.next_game.time}
+              {nextGame.date} • {nextGame.time}
             </p>
 
             <p className="text-sm text-brand-white/50 mt-3">
-              Venue: {data.next_game.location}
+              Venue: {nextGame.venue}
             </p>
           </Card>
 
@@ -127,15 +134,15 @@ export function HeroSection() {
               </p>
 
               <h3 className="mt-1 text-lg font-bold text-brand-white">
-                {lastGameData.teamId.result}: {lastGameData.teamId.final}
+                {lastResult.opponent}: {lastResult.score}
               </h3>
 
               <p className="text-sm text-brand-white/70 mt-1">
-                vs {lastGameData.teams[1].team_full_name}
+                vs {lastResult.opponent}
               </p>
 
               <p className="text-sm text-brand-white/50 mt-3">
-                {lastGameData.display_date}
+                {lastResult.date}
               </p>
           </Card>
         </div>
