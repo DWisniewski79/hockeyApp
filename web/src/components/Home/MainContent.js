@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { use } from 'react';
+import { useState, useEffect } from 'react';
 import smallMascot from '../../assets/SmallMascot.svg';
 import medMascot from '../../assets/MedMascot.svg';
 import lrgMascot from '../../assets/LrgMascot.svg';
@@ -6,43 +7,153 @@ import lrgMascot from '../../assets/LrgMascot.svg';
 export default function ContentLayout() {
   // 1. DATA: Team Leaders Configuration
   // We use this array to generate the 3 cards dynamically
+
+  function GetTeamData() {
+    // Placeholder for future API call to fetch real team data
+    const [serverUrl, setServerUrl] = useState('http://192.168.0.203:8080/albums');
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await fetch(serverUrl);
+          const data = await response.json();
+          console.log('Fetched team data:', data);
+
+        }
+        catch (error) {
+          console.error('Error fetching team data:', error);
+        }
+      };
+      return () => {
+        fetchData();
+      }
+  }, []);
+}
+
+  function useLeaderData() {
+    // Placeholder for future API call to fetch real team data
+    const [data, setData] = useState(null);
+    const [serverUrl, setServerUrl] = useState('http://192.168.0.203:8080/players');
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await fetch(serverUrl);
+          const result = await response.json();
+          setData(result);
+          console.log('Fetched player data:', result);
+
+        }
+        catch (error) {
+          console.error('Error fetching player data:', error);
+        }
+      };
+
+      fetchData();
+  }, []);
+  return data;
+}
+
+  function useNextGame() {
+    // Placeholder for future API call to fetch real team data
+    const [data, setData] = useState(null);
+    const [serverUrl, setServerUrl] = useState('http://192.168.0.203:8080/next-game');
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await fetch(serverUrl);
+          const result = await response.json();
+          setData(result);
+          console.log('Fetched player data:', result);
+
+        }
+        catch (error) {
+          console.error('Error fetching player data:', error);
+        }
+      };
+
+      fetchData();
+  }, []);
+  return data;
+}
+
+  function useGoalieData() {
+    // Placeholder for future API call to fetch real team data
+    const [data, setData] = useState(null);
+    const [serverUrl, setServerUrl] = useState('http://192.168.0.203:8080/goalie-stats');
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await fetch(serverUrl);
+          const result = await response.json();
+          setData(result);
+          console.log('Fetched goalie data:', result);
+
+        }
+        catch (error) {
+          console.error('Error fetching goalie data:', error);
+        }
+      };
+
+      fetchData();
+  }, []);
+  return data;
+}
+
+var teamData = GetTeamData();
+var leaderData = useLeaderData();
+var goalieData = useGoalieData();
+var nextGameData = useNextGame();
+
+if (!leaderData) {
+        return <div>Loading...</div>;
+    }
+
+  if (!nextGameData) {
+      return <div>Loading next game data...</div>;
+  }
+  
+  
   const leaders = [
     {
       category: "Top Goal Scorer",
       accentColor: "text-brand-teal", 
       borderColor: "border-brand-teal",
-      player: "C. McDavid",
-      number: "97",
-      position: "C",
-      mainStat: { label: "Goals", value: "64" }, 
-      subStats: [ { label: "Assists", value: "89" }, { label: "Points", value: "153" } ]
+      player: leaderData.find(player => player.categories_led.includes("Goal"))?.player.full_name || "Unknown",
+      number: leaderData.find(player => player.categories_led.includes("Goal"))?.player.jersey_number || "0",
+      position: leaderData.find(player => player.categories_led.includes("Goal"))?.player.positions[0].short_name || "Unknown",
+      mainStat: { label: "Goals", value: leaderData.find(player => player.categories_led.includes("Goal"))?.stats[1].total || "0" }, 
+      subStats: [ { label: "Assists", value: leaderData.find(player => player.categories_led.includes("Assist"))?.stats[2].total || "0" },
+         { label: "Points", value: leaderData.find(player => player.categories_led.includes("Points"))?.stats[0].total || "0" } ]
     },
     {
       category: "Assist Leader",
       accentColor: "text-brand-magenta",
       borderColor: "border-brand-magenta",
-      player: "N. Kucherov",
-      number: "86",
-      position: "RW",
-      mainStat: { label: "Assists", value: "83" },
-      subStats: [ { label: "Goals", value: "30" }, { label: "Points", value: "113" } ]
+      player: leaderData.find(player => player.categories_led.includes("Assist"))?.player.full_name || "Unknown",
+      number: leaderData.find(player => player.categories_led.includes("Assist"))?.player.jersey_number || "0",
+      position: leaderData.find(player => player.categories_led.includes("Assist"))?.player.positions[0].short_name || "Unknown",
+      mainStat: { label: "Assists", value: leaderData.find(player => player.categories_led.includes("Assist"))?.stats[2].total || "0" },
+      subStats: [ { label: "Goals", value: leaderData.find(player => player.categories_led.includes("Goal"))?.stats[1].total || "0" }, { label: "Points", value: leaderData.find(player => player.categories_led.includes("Points"))?.stats[0].total || "0" } ]
     },
     {
-      category: "Top Goaltender",
+      category: "Goaltender",
       accentColor: "text-blue-400",
       borderColor: "border-blue-400",
-      player: "I. Shesterkin",
-      number: "31",
+      player: goalieData?.find(goalie => goalie.name === "Saad Imtiaz")?.name || "Unknown",
+      number: "G8",
       position: "G",
-      mainStat: { label: "Save %", value: ".926" },
-      subStats: [ { label: "GAA", value: "2.04" }, { label: "Wins", value: "37" } ]
+      mainStat: { label: "Save %", value: goalieData?.find(goalie => goalie.name === "Saad Imtiaz")?.save_percentage || "0%" },
+      subStats: [ { label: "GAA", value: goalieData?.find(goalie => goalie.name === "Saad Imtiaz")?.gaa || "0.00" }, { label: "Wins", value: goalieData?.find(goalie => goalie.name === "Saad Imtiaz")?.wins || "0" } ]
     }
   ];
 
 
   // 2. DATA: Existing Ladder & Game Data
   const nextGame = {
-    opponent: "Thunder Wolves",
+    opponent:  "Unknown Opponent",
     date: "Sat 14 Jun",
     time: "7:30 PM",
     venue: "Local Ice Arena 1",
@@ -60,6 +171,8 @@ export default function ContentLayout() {
     { team: "Thunder Wolves", played: 10, points: 20, position: 1 },
     { team: "Frostbite Flyers", played: 10, points: 16, position: 3 },
   ];
+
+  console.log('Team data: ', teamData);
 
   return (
     <div className="max-w-screen-md mx-auto px-4 pb-24 pt-4 text-brand-white bg-brand-black min-h-screen">

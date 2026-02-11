@@ -7,6 +7,8 @@ import AboutLayout from './Pages/About';
 import {Layout} from './components/Layout';
 
 function App() {
+
+  console.log("Connecting to:", process.env.REACT_APP_API_URL);
   return (
     <Router>
       <Routes>

@@ -12,56 +12,71 @@ export function HeroSection() {
   //   venue: "Local Ice Arena 1",
   // };
   const [isLoading, setLoading] = useState(true);
-  // const [data, setData] = useState([]);
 
-  // const getNextGame = async () => {
-  //   try {
-  //     const response = await fetch('https://icehq.hockeysyte.com/api/teams/team?team_id=1393&api_key=hYYUDGj632husuyq&format=json', {
-  //       method: 'GET'
-  //     });
-  //     const json = await response.json();
-  //     setData(json);
-  //   } catch (error) {
-  //     console.error('Error fetching next match:', error);
-  //     return null;
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // }
+    function useNextGame() {
+      // Placeholder for future API call to fetch real team data
+      const [data, setData] = useState(null);
+      const [serverUrl, setServerUrl] = useState('http://192.168.0.203:8080/next-game');
+  
+      useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const response = await fetch(serverUrl);
+            const result = await response.json();
+            setData(result);
+            console.log('Fetched player data:', result);
+  
+          }
+          catch (error) {
+            console.error('Error fetching player data:', error);
+          }
+        };
+  
+        fetchData();
+    }, []);
+    return data;
+  }
 
-  // useEffect(() => {
-  //   getNextGame();
-  // }, []);
-
-
-  // if(!isLoading) {
-
-  // let lastGame = data.games
-
-
-  // const lastGameData = findLastResult(lastGame || []);  
-
-  // console.log("Last Game Data:", lastGameData);
-
-  // }
+  var nextGameData = useNextGame();
 
   const teamId = 1393;
 
     const nextGame = {
-    opponent: "Thunder Wolves",
-    date: "Sat 14 Jun",
-    time: "7:30 PM",
-    venue: "Local Ice Arena 1",
+    opponent: nextGameData?.next_game?.teams.find(team => team.team_id !== '1393')?.team_full_name || "Unknown Opponent",
+    date: nextGameData?.next_game?.display_date || "Unknown Date",
+    time: nextGameData?.next_game?.display_time || "Unknown Time",
+    venue: nextGameData?.next_game?.location || "ICE HQ",
   };
 
   
 
-  const lastResult = {
-    opponent: "Frostbite Flyers",
-    score: "4 - 2",
-    result: "Win",
-    date: "Sat 7 Jun",
-  };
+// 1. Grab the game object to avoid repeated optional chaining
+const game = nextGameData?.last_game;
+
+// 2. Find "The Happys" specific team object to check if we were Home or Away
+// Note: We check for "1" because you mentioned the variable is a string "0" or "1"
+const myTeam = game?.teams?.find(team => team.team_id === '1393');
+const isHome = myTeam?.is_home === "1"; 
+
+// 3. Get the raw scores (defaulting to 0 if missing)
+const homeScore = game?.game_result?.home_score || 0;
+const awayScore = game?.game_result?.away_score || 0;
+
+const lastResult = {
+  // Find the opponent (the team that ISN'T 1393)
+  opponent: game?.teams?.find(team => team.team_id !== '1393')?.team_full_name || "Unknown Opponent",
+  
+  // 4. Format Score: ALWAYS show "Us - Them"
+  // If we were Home: "Home - Away"
+  // If we were Away: "Away - Home"
+  score: isHome ? `${homeScore} - ${awayScore}` : `${awayScore} - ${homeScore}`,
+  
+  // 5. Calculate Result
+  // If the API returns the Winner's Team ID, your existing check is perfect.
+  result: (game?.game_result?.winner === "home" && isHome) || (game?.game_result?.winner === "away" && !isHome) ? "Win" : "Loss", 
+  
+  date: game?.display_date || "Unknown Date",
+};
 
 
   const ladder = [
@@ -134,7 +149,7 @@ export function HeroSection() {
               </p>
 
               <h3 className="mt-1 text-lg font-bold text-brand-white">
-                {lastResult.opponent}: {lastResult.score}
+                {lastResult.result}: {lastResult.score}
               </h3>
 
               <p className="text-sm text-brand-white/70 mt-1">
